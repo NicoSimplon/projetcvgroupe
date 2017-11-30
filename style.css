@@ -11,6 +11,20 @@ body {
 /*style du titre*/
 
 h1 {
-	font-size: 40pt;
+	font-size: 80pt;
 	text-align: center;
+	display: block;
+	position: relative;
+	margin-top: 20%;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color:rgb(229,177,58);
+}
+
+a:hover {
+	color: blue;
+	background-color: rgb(229,177,58);
 }
