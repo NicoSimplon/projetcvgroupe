@@ -1,0 +1,33 @@
+/*police*/
+
+@font-face {
+  font-family: StarWars; 
+  src: url('Starjout.ttf'); 
+} 
+
+body {
+	font-family: StarWars;
+	background-color: black;
+	color: rgb(229,177,58);
+}
+
+/*style du titre*/
+
+h1 {
+	font-size: 80pt;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-top: 20%;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color:rgb(229,177,58);
+}
+
+a:hover {
+	color: blue;
+	background-color: rgb(229,177,58);
+}
